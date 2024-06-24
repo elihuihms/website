@@ -1,0 +1,51 @@
+body
+{
+	background-color: #c7c7c7;
+	color:		#333333;
+
+	text-align:center;
+	font-family:helvetica,san-serif;
+}
+
+a:link, a:visited
+{
+	color: #555555;
+	text-decoration: none;
+}
+
+a:hover, a:active
+{
+	color:		#333333;
+    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.4);
+    transition: 1s linear;
+}
+
+#title>img
+{
+	margin-top: 60px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#list
+{
+	height: auto;
+	width: 400px;
+	margin-top: 40px;
+	
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#list>div
+{
+	text-align: left;
+	margin-top: 10px;
+	margin-left: 20px;
+}
+
+#list>div>a
+{
+	margin-left: 30px;
+}
